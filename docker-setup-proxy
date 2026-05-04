@@ -1,4 +1,4 @@
-Step 1: sudo nano /etc/nginx/sites-available/your_project
+Step 1: sudo vim /etc/nginx/sites-available/your_project
 
 
 server {
