@@ -19,6 +19,10 @@ Step 2: sudo ln -s /etc/nginx/sites-available/your_project /etc/nginx/sites-enab
 
 Step 3: sudo nginx -t
 
+step 4: sudo apt install certbot python3-certbot-nginx -y
+
+step 5: sudo certbot --nginx -d aiwithaman.com -d www.wiwithaman.com
+
 Step 4: sudo crontab -e
 
   0 3 * * * certbot renew --quiet && systemctl reload nginx
